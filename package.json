@@ -1,6 +1,6 @@
 {
   "name": "gulp-easy-rev",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Easy revisioning by appending customized strings to filenames: style.css => style-d41d8cd98f.css",
   "license": "MIT",
   "repository": "ruanyl/gulp-easy-rev",
