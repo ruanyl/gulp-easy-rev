@@ -1,0 +1,49 @@
+{
+  "name": "gulp-easy-rev",
+  "version": "0.1.0",
+  "description": "Easy revisioning by appending customized strings to filenames: style.css => style-d41d8cd98f.css",
+  "license": "MIT",
+  "repository": "ruanyl/gulp-easy-rev",
+  "author": {
+    "name": "Yulong Ruan",
+    "email": "ruanyu1@gmail.com",
+    "url": "blog.bigruan.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "rev",
+    "revving",
+    "revision",
+    "hash",
+    "optimize",
+    "version",
+    "versioning",
+    "cache",
+    "expire",
+    "static",
+    "asset",
+    "assets"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "modify-filename": "^1.1.0",
+    "object-assign": "^4.0.1",
+    "rev-hash": "^1.0.0",
+    "rev-path": "^1.0.0",
+    "sort-keys": "^1.0.0",
+    "through2": "^2.0.0",
+    "vinyl-file": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
