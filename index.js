@@ -135,9 +135,12 @@ plugin.manifest = function (pth, opts) {
   }
 
   opts = objectAssign({
-    path: 'rev-manifest.json',
+    manifestPath: 'rev-manifest.json',
     merge: false
   }, opts, pth);
+
+  opts.path = opts.manifestPath;
+  opts.base = path.dirname(opts.manifestPath);
 
   var manifest = {};
 
